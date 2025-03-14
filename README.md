@@ -2,7 +2,7 @@
 
 APIs:
 
-- Facts Random: https://catfact.ninja/fact
+- Facts Random: https://catfact.ninja/fact?max_length=300 (cambio de url desde que se)
 - Imagen random: https://cataas.com/cat/says/hello
 
 - Recupera un hecho aleatorio de gatos de la primera API

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import './App.css'
 
 const RANDOM_FACT_URL = 'https://catfact.ninja/fact?max_length=300'
 
@@ -28,8 +29,10 @@ export default function App () {
   return (
     <main>
       <h1>App de gatos</h1>
-      {fact && <p>{fact}</p>}
-      {imageUrl && <img src={imageUrl} alt='Image extracted using the first word of fact' />}
+      <section>
+        {fact && <p>{fact}</p>}
+        {imageUrl && <img src={imageUrl} alt='Image extracted using the first word of fact' />}
+      </section>
     </main>
   )
 }
